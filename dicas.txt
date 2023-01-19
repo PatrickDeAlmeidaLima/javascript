@@ -1,7 +1,12 @@
-váriaveis com let e const:
-*Temos formas de declarar variáveis no ES6.
-*A let que é semelhante ao var, podemos alterar valores.
-*E a const, é uma forma de declarar constantes.
-*O grande diferencial é que o escopo de blocos, não temos mais variáveis,
+*Váriaveis com let e const:
+-Temos formas de declarar variáveis no ES6.
+-A let que é semelhante ao var, podemos alterar valores.
+-E a const, é uma forma de declarar constantes.
+-O grande diferencial é que o escopo de blocos, não temos mais variáveis,
 sendo "vazadas" para outros escopos por causa do mesmo nome.
-*
+
+*Arrow Function
+-A arrow function é um recurso para criar funções de forma mais simples.
+-Porém ela não funciona exatamente como uma function em todos os aspectos.
+-o this da arrow function é relacionado ao elemento pai de quem está a executando 
+
