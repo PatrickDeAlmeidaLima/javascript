@@ -10,3 +10,7 @@ sendo "vazadas" para outros escopos por causa do mesmo nome.
 -Porém ela não funciona exatamente como uma function em todos os aspectos.
 -o this da arrow function é relacionado ao elemento pai de quem está a executando 
 
+*Filter
+-O filter é um metodo de array para filtrar dados, baseado em alguma condição que estabelecemos.
+-Isso nos dá um array com apenas os elementos que queremos, de forma perfomatica.
+-Há vários metodos de array importantes no ES6, este é um deles.

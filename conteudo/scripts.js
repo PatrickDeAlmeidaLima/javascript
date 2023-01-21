@@ -30,51 +30,84 @@
 
 // console.log(name)
 
-// 2 arrow function
+//----------------------------------------------------------------------------------------------------------
+// // 2 arrow function
 
-const sum = function sum(a, b) {
-    return a + b
-}
+// const sum = function sum(a, b) {
+//     return a + b
+// }
 
-const arrowSum = (a, b) => a + b
+// const arrowSum = (a, b) => a + b
 
-console.log(sum(4, 5))
-console.log(arrowSum(5, 5))
+// console.log(sum(4, 5))
+// console.log(arrowSum(5, 5))
 
-const greeting = (name) => {
-    if (name) {
-        return "Olá " + name + "!"
-    } else {
-        return "Olá não sei seu nome."
+// const greeting = (name) => {
+//     if (name) {
+//         return "Olá " + name + "!"
+//     } else {
+//         return "Olá não sei seu nome."
+//     }
+// }
+
+
+
+// console.log(greeting("patrick"))
+// console.log(greeting())
+
+// const testArrow = () => console.log("Estou testando a arrow function!")
+
+// testArrow()
+
+// const user = {
+//     // javascript antigo
+//     name: "Mateus",
+//     sayUserName() {
+//         var self = this
+//         setTimeout(function () {
+//             console.log(self)
+//             console.log("UserName: " + self.name)
+//         }, 500)
+//     },
+//     sayUserNameArrow() {
+//         setTimeout(() => {
+//             console.log(this)
+//             console.log("UserName: " + this.name)
+//         }, 700)
+//     }
+// }
+
+// user.sayUserName()
+// user.sayUserNameArrow()
+
+//----------------------------------------------------------------------------------------------------------
+
+// 3 -Filter
+
+const arr = [1, 2, 3, 4, 5]
+console.log(arr);
+const highNumbers = arr.filter((n) => {
+    if (n >= 3) {
+        return n
     }
-}
+})
+
+console.log(highNumbers)
 
 
+const users = [{ name: "Patrick", available: true },
+{ name: "Mateus", available: true },
+{ name: "Luciano", available: false },
+{ name: "Yuri", available: false }]
 
-console.log(greeting("patrick"))
-console.log(greeting())
+// const availableUsers = users.filter((user) => {
+//     if (user.available === true) {
+//         return user
+//     }
+// })
 
-const testArrow = () => console.log("Estou testando a arrow function!")
+const availableUsers = users.filter((user) => user.available)
+const notAvailableUsers = users.filter((user) => !user.available)
 
-testArrow()
-
-const user = {
-    // javascript antigo
-    name: "Mateus",
-    sayUserName() {
-        var self = this
-        setTimeout(function () {
-            console.log(self)
-            console.log("UserName: " + self.name)
-        }, 500)
-    },
-    sayUserNameArrow() {
-        setTimeout(() => {
-            console.log(this)
-            console.log("UserName: " + this.name)
-        }, 700)
-    }
-}
-
-user.sayUserName()
-user.sayUserNameArrow()
+console.log(availableUsers)
+console.log(notAvailableUsers)
