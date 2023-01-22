@@ -114,18 +114,26 @@
 
 //----------------------------------------------------------------------------------------------------------
 
-// 4 - Map
+// // 4 - Map
 
-const products = [
-    { name: 'Camisa', price: 10.99, category: 'Roupas' },
-    { name: 'Calça', price: 30.99, category: 'Roupas' },
-    { name: 'Chaleira', price: 20.99, category: 'Utensílios' },
-    { name: 'Fogão', price: 50.99, category: 'Móveis' }
-]
+// const products = [
+//     { name: 'Camisa', price: 10.99, category: 'Roupas' },
+//     { name: 'Calça', price: 30.99, category: 'Roupas' },
+//     { name: 'Chaleira', price: 20.99, category: 'Utensílios' },
+//     { name: 'Fogão', price: 50.99, category: 'Móveis' }
+// ]
 
-products.map((product) => {
-    if (product.category === "Roupas") {
-        product.onSale = true //adicionando dentro do array com o map
-    }
-})
-console.log(products)
+// products.map((product) => {
+//     if (product.category === "Roupas") {
+//         product.onSale = true //adicionando dentro do array com o map
+//     }
+// })
+// console.log(products)
+
+//----------------------------------------------------------------------------------------------------------
+
+// 5 - templates literals
+const userName = "Patrick";
+const age = 30;
+
+console.log(`O nome do usuário é: ${userName} e ele tem:${age} anos.`);
