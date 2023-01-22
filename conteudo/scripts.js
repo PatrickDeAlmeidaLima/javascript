@@ -84,30 +84,48 @@
 
 // 3 -Filter
 
-const arr = [1, 2, 3, 4, 5]
-console.log(arr);
-const highNumbers = arr.filter((n) => {
-    if (n >= 3) {
-        return n
-    }
-})
-
-console.log(highNumbers)
-
-
-const users = [{ name: "Patrick", available: true },
-{ name: "Mateus", available: true },
-{ name: "Luciano", available: false },
-{ name: "Yuri", available: false }]
-
-// const availableUsers = users.filter((user) => {
-//     if (user.available === true) {
-//         return user
+// const arr = [1, 2, 3, 4, 5]
+// console.log(arr);
+// const highNumbers = arr.filter((n) => {
+//     if (n >= 3) {
+//         return n
 //     }
 // })
 
-const availableUsers = users.filter((user) => user.available)
-const notAvailableUsers = users.filter((user) => !user.available)
+// console.log(highNumbers)
 
-console.log(availableUsers)
-console.log(notAvailableUsers)
+
+// const users = [{ name: "Patrick", available: true },
+// { name: "Mateus", available: true },
+// { name: "Luciano", available: false },
+// { name: "Yuri", available: false }]
+
+// // const availableUsers = users.filter((user) => {
+// //     if (user.available === true) {
+// //         return user
+// //     }
+// // })
+
+// const availableUsers = users.filter((user) => user.available)
+// const notAvailableUsers = users.filter((user) => !user.available)
+
+// console.log(availableUsers)
+// console.log(notAvailableUsers)
+
+//----------------------------------------------------------------------------------------------------------
+
+// 4 - Map
+
+const products = [
+    { name: 'Camisa', price: 10.99, category: 'Roupas' },
+    { name: 'Calça', price: 30.99, category: 'Roupas' },
+    { name: 'Chaleira', price: 20.99, category: 'Utensílios' },
+    { name: 'Fogão', price: 50.99, category: 'Móveis' }
+]
+
+products.map((product) => {
+    if (product.category === "Roupas") {
+        product.onSale = true //adicionando dentro do array com o map
+    }
+})
+console.log(products)
