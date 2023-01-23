@@ -25,3 +25,8 @@ sendo "vazadas" para outros escopos por causa do mesmo nome.
 -Podemos colocadas váriaveis entre o texto.
 -A string fica entre: `texto`
 -E as váriaveis são colocadas desta maneira: ${variavel}
+
+*Destructuring
+-O destructuring é um recurso que pode ser utilizado em arrays e objetos.
+-A ideia é transformar os itens de um desses dados em váriaveis.
+-Simplificando a declaração de N váriaveis em apenas uma linha.
