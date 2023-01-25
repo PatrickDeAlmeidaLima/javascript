@@ -139,22 +139,44 @@
 // console.log(`O nome do usuário é: ${userName} e ele tem:${age} anos.`);
 //----------------------------------------------------------------------------------------------------------
 
-// 6 - Destructuring
+// // 6 - Destructuring
 
-const fruits = ["Maçã", "Banana", "Mamão"]
+// const fruits = ["Maçã", "Banana", "Mamão"]
 
-const [f1, f2, f3] = fruits
+// const [f1, f2, f3] = fruits
 
-console.log(f1)
-console.log(f3)
+// console.log(f1)
+// console.log(f3)
 
-const productsDetails = {
-    name: "Mouse",
-    price: 39.99,
-    category: "Periféricos",
-    color: "Cinza"
-}
+// const productsDetails = {
+//     name: "Mouse",
+//     price: 39.99,
+//     category: "Periféricos",
+//     color: "Cinza"
+// }
 
-const { name: productName, price, category: productCategory, color } = productsDetails
+// const { name: productName, price, category: productCategory, color } = productsDetails
 
-console.log(`O nome do produto é ${productName}, custa R$${price} pertence a categoria ${productCategory} e é da cor ${color}.`)
+// console.log(`O nome do produto é ${productName}, custa R$${price} pertence a categoria ${productCategory} e é da cor ${color}.`)
+//----------------------------------------------------------------------------------------------------------
+
+// 7 - spread operator
+
+const a1 = [1, 2, 3]
+const b2 = [4, 5, 6]
+
+const a3 = [...a1, ...b2]
+
+console.log(a3)
+
+const a4 = [0, ...a1, 4]
+
+console.log(a4)
+
+const carName = { name: 'Gol' }
+const carBrand = { brand: 'VW' }
+const otherInfos = { km: 10000, price: "R$ 49.000,00" }
+
+const car = { ...carName, ...carBrand, ...otherInfos }
+
+console.log(car)

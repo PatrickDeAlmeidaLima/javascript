@@ -30,3 +30,8 @@ sendo "vazadas" para outros escopos por causa do mesmo nome.
 -O destructuring é um recurso que pode ser utilizado em arrays e objetos.
 -A ideia é transformar os itens de um desses dados em váriaveis.
 -Simplificando a declaração de N váriaveis em apenas uma linha.
+
+*Spread operator
+-O spread operator pode ser utilizado também em array e objetos.
+-Utilizamos para construir novos valores destes dados em outro array e objetos.
+-Ou seja, podemos unir vários arrays de maneira simples ou adicionar valores de um objeto a outro por exemplo.
