@@ -160,23 +160,52 @@
 // console.log(`O nome do produto é ${productName}, custa R$${price} pertence a categoria ${productCategory} e é da cor ${color}.`)
 //----------------------------------------------------------------------------------------------------------
 
-// 7 - spread operator
+// // 7 - spread operator
 
-const a1 = [1, 2, 3]
-const b2 = [4, 5, 6]
+// const a1 = [1, 2, 3]
+// const b2 = [4, 5, 6]
 
-const a3 = [...a1, ...b2]
+// const a3 = [...a1, ...b2]
 
-console.log(a3)
+// console.log(a3)
 
-const a4 = [0, ...a1, 4]
+// const a4 = [0, ...a1, 4]
 
-console.log(a4)
+// console.log(a4)
 
-const carName = { name: 'Gol' }
-const carBrand = { brand: 'VW' }
-const otherInfos = { km: 10000, price: "R$ 49.000,00" }
+// const carName = { name: 'Gol' }
+// const carBrand = { brand: 'VW' }
+// const otherInfos = { km: 10000, price: "R$ 49.000,00" }
 
-const car = { ...carName, ...carBrand, ...otherInfos }
+// const car = { ...carName, ...carBrand, ...otherInfos }
 
-console.log(car)
+// console.log(car)
+//----------------------------------------------------------------------------------------------------------
+
+// 8 - classes
+
+class Product {
+    constructor(name, price) {
+        this.name = name
+        this.price = price
+    }
+
+    productWithDiscount(discount) {
+        return this.price * ((100 - discount) / 100)
+    }
+}
+
+const shirt = new Product("Camisa Polo", 20)
+
+console.log(shirt.name)
+
+console.log(shirt.productWithDiscount(10))
+
+console.log(shirt.productWithDiscount(50))
+
+const tenis = new Product("Tenis azul", 100)
+console.log(tenis.name)
+
+console.log(tenis.productWithDiscount(20))
+
+console.log(tenis.productWithDiscount(60))

@@ -35,3 +35,14 @@ sendo "vazadas" para outros escopos por causa do mesmo nome.
 -O spread operator pode ser utilizado também em array e objetos.
 -Utilizamos para construir novos valores destes dados em outro array e objetos.
 -Ou seja, podemos unir vários arrays de maneira simples ou adicionar valores de um objeto a outro por exemplo.
+
+*Classes
+-As classes são recursos fundamentais para programar com orientação a objetos.
+-Agora o JS tem este recurso implementado, onde temos acesso a:
+    -Constructor, propriedades, metodos e mais.
+-Antes as classes eram baseadas em funções (constructor functions).
+
+*
+-
+-
+-
