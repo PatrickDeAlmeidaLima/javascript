@@ -1,0 +1,23 @@
+*O que é uma API?
+-API é um acrônimo, para Interface de Programação de Aplicações(Application Programming Interface)
+-Uma forma simples de comunicação entre aplicações.
+-Não necessita de telas, respostas são geralmente em JSON.
+-Independente do Front-End, a API não possui ligação do front.
+-Baseadas em requisições e respostas.
+
+*O que é REST E RESTful
+-REST significa Representational State Transfer ou transferencia representacional de estado.
+-Um estilo de arquitetura, que define como as APIs devem ser criadas.
+-Seguindo todos os padrões a API é considerada RESTful.
+-Alguns dos pontos são: respostas uniformes, sem ligação de estado, cache de resposta e outros.
+-REST (Representational State Transfer) é um estilo de arquitetura de software para sistemas distribuídos, que define regras para como a comunicação entre os diferentes componentes de um sistema deve ser realizada. Ele foi introduzido pela primeira vez em 2000 por Roy Fielding em sua dissertação de doutorado.
+-O objetivo do REST é proporcionar uma abstração para a complexidade da comunicação entre aplicativos e dispositivos, fornecendo uma forma consistente e flexível de comunicação baseada em padrões de protocolos e tecnologias existentes, como HTTP, URI e XML.
+-RESTful é um termo usado para descrever aplicativos ou serviços que seguem as regras do REST. Um sistema RESTful é composto por recursos (como dados ou funcionalidades) que são acessados ​​por meio de URLs (Uniform Resource Locators) e manipulados usando verbos HTTP, como GET, POST, PUT e DELETE.
+-Para ser considerado RESTful, um sistema deve seguir alguns princípios básicos:
+-Ele deve usar o protocolo HTTP para realizar operações CRUD (Criar, Ler, Atualizar e Excluir) em recursos.
+-Ele deve usar URIs para identificar recursos de maneira única.
+-Ele deve suportar diferentes formatos de dados, como JSON ou XML, para representar recursos.
+-Ele deve ser stateless, ou seja, cada requisição deve conter todas as informações necessárias para ser entendida pelo servidor, sem precisar armazenar estado entre as requisições.
+-Em resumo, REST é uma arquitetura para construir sistemas e serviços distribuídos que segue princípios simples e padrões abertos, e RESTful é aplicação desse arquitetura.
+-
+-
