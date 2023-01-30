@@ -12,7 +12,7 @@
 -Alguns dos pontos são: respostas uniformes, sem ligação de estado, cache de resposta e outros.
 -REST (Representational State Transfer) é um estilo de arquitetura de software para sistemas distribuídos, que define regras para como a comunicação entre os diferentes componentes de um sistema deve ser realizada. Ele foi introduzido pela primeira vez em 2000 por Roy Fielding em sua dissertação de doutorado.
 -O objetivo do REST é proporcionar uma abstração para a complexidade da comunicação entre aplicativos e dispositivos, fornecendo uma forma consistente e flexível de comunicação baseada em padrões de protocolos e tecnologias existentes, como HTTP, URI e XML.
--RESTful é um termo usado para descrever aplicativos ou serviços que seguem as regras do REST. Um sistema RESTful é composto por recursos (como dados ou funcionalidades) que são acessados ​​por meio de URLs (Uniform Resource Locators) e manipulados usando verbos HTTP, como GET, POST, PUT e DELETE.
+-RESTful é um termo usado para descrever aplicativos ou serviços que seguem as regras do REST. Um sistema RESTful é composto por recursos (como dados ou funcionalidades) que são acessados por meio de URLs (Uniform Resource Locators) e manipulados usando verbos HTTP, como GET, POST, PUT e DELETE.
 -Para ser considerado RESTful, um sistema deve seguir alguns princípios básicos:
 -Ele deve usar o protocolo HTTP para realizar operações CRUD (Criar, Ler, Atualizar e Excluir) em recursos.
 -Ele deve usar URIs para identificar recursos de maneira única.
@@ -26,5 +26,27 @@
 -Depois criaremos uma rota que responde em JSON, este é o dado de comunicação entre aplicações e API.
 -É importante definir o verbo correto, como GET ou POST, por exemplo.
 (Pacotes instalados no 1_primeira_api:  (npm init -y) e (npm install express nodemon))
+*O que é uma SPA
+-SPA significa single page application.
+-É quando a aplciação possui um front-end separado do back-end.
+-Ou seja, uma API para o back-end.
+-E um framework front-end JS, como: React, Vue ou Angular.
+-Aplicações deste tipo estão dominando o mercado.
+-E a arquitetura anteriormente utilizada é conhecida como monolith.
+-Uma Single-Page Application (SPA) é uma aplicação web que, como o nome indica, é executada em uma única página. Em vez de recarregar a página inteira para cada ação do usuário, uma SPA usa JavaScript para carregar dados dinâmicos e atualizar a página sem a necessidade de uma nova requisição ao servidor. Isso resulta em uma experiência mais suave e rápida para o usuário, pois o conteúdo é atualizado em tempo real sem o usuário perceber a mudança.
+-As SPAs são construídas em torno de uma arquitetura de front-end, onde o JavaScript é usado para lidar com a maior parte da funcionalidade da aplicação. Isso significa que as requisições de dados são feitas em segundo plano usando APIs REST ou outras tecnologias semelhantes, ao invés de recarregar a página inteira. Além disso, as SPAs usam rotas para controlar a navegação na aplicação, tornando a experiência de navegação mais fluida e agradável.
+
+*Verbos HTTP
+-Os verbos HTTP andam de mãos dadas com as APIs, e fazem parte do REST.
+-Temos como métodos como: GET, POST, PUT DELETE, PATCH e etc.
+-Cada um representa uma ação na API, ou seja, são essenciais
+-É muito importante que as nossas funcionalidades usem os Métodos corretos.
+-Enviamos o método através da requisição.
+-HTTP Verbs são os diferentes tipos de ações que podem ser realizadas em uma requisição HTTP. Alguns dos verbos HTTP mais comuns incluem:
+-GET: é o verbo HTTP utilizado para obter informações a partir de um recurso na web. Por exemplo, quando você acessa uma página web, você está fazendo uma requisição GET para o servidor para obter o conteúdo da página.
+-POST: é o verbo HTTP utilizado para enviar informações a um recurso na web. Por exemplo, quando você preenche um formulário na web e clica no botão "enviar", você está fazendo uma requisição POST para o servidor com as informações que você inseriu no formulário.
+-PUT: é o verbo HTTP utilizado para atualizar informações em um recurso na web. Por exemplo, se você quiser atualizar o perfil de usuário em uma aplicação, você pode fazer uma requisição PUT para o servidor com as novas informações de perfil.
+-DELETE: é o verbo HTTP utilizado para excluir informações a partir de um recurso na web. Por exemplo, se você quiser excluir um post em um fórum, você pode fazer uma requisição DELETE para o servidor para excluir o post.
+-Esses são alguns dos verbos HTTP mais comuns. Além disso, há outros verbos HTTP, como PATCH, OPTIONS e HEAD, que são utilizados para realizar outras ações em recursos na web. É importante entender o significado de cada verbo HTTP para poder desenvolver aplicações web de forma correta e eficiente.
 
 
