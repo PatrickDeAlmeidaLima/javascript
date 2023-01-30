@@ -12,12 +12,23 @@
 -Alguns dos pontos são: respostas uniformes, sem ligação de estado, cache de resposta e outros.
 -REST (Representational State Transfer) é um estilo de arquitetura de software para sistemas distribuídos, que define regras para como a comunicação entre os diferentes componentes de um sistema deve ser realizada. Ele foi introduzido pela primeira vez em 2000 por Roy Fielding em sua dissertação de doutorado.
 -O objetivo do REST é proporcionar uma abstração para a complexidade da comunicação entre aplicativos e dispositivos, fornecendo uma forma consistente e flexível de comunicação baseada em padrões de protocolos e tecnologias existentes, como HTTP, URI e XML.
--RESTful é um termo usado para descrever aplicativos ou serviços que seguem as regras do REST. Um sistema RESTful é composto por recursos (como dados ou funcionalidades) que são acessados ​​por meio de URLs (Uniform Resource Locators) e manipulados usando verbos HTTP, como GET, POST, PUT e DELETE.
+-RESTful é um termo usado para descrever aplicativos ou serviços que seguem as regras do REST. Um sistema RESTful é composto por recursos (como dados ou funcionalidades) que são acessados por meio de URLs (Uniform Resource Locators) e manipulados usando verbos HTTP, como GET, POST, PUT e DELETE.
 -Para ser considerado RESTful, um sistema deve seguir alguns princípios básicos:
 -Ele deve usar o protocolo HTTP para realizar operações CRUD (Criar, Ler, Atualizar e Excluir) em recursos.
 -Ele deve usar URIs para identificar recursos de maneira única.
 -Ele deve suportar diferentes formatos de dados, como JSON ou XML, para representar recursos.
 -Ele deve ser stateless, ou seja, cada requisição deve conter todas as informações necessárias para ser entendida pelo servidor, sem precisar armazenar estado entre as requisições.
 -Em resumo, REST é uma arquitetura para construir sistemas e serviços distribuídos que segue princípios simples e padrões abertos, e RESTful é aplicação desse arquitetura.
--
--
+
+*O que é uma SPA
+-SPA significa single page application.
+-É quando a aplciação possui um front-end separado do back-end.
+-Ou seja, uma API para o back-end.
+-E um framework front-end JS, como: React, Vue ou Angular.
+-Aplicações deste tipo estão dominando o mercado.
+-E a arquitetura anteriormente utilizada é conhecida como monolith.
+-Uma Single-Page Application (SPA) é uma aplicação web que, como o nome indica, é executada em uma única página. Em vez de recarregar a página inteira para cada ação do usuário, uma SPA usa JavaScript para carregar dados dinâmicos e atualizar a página sem a necessidade de uma nova requisição ao servidor. Isso resulta em uma experiência mais suave e rápida para o usuário, pois o conteúdo é atualizado em tempo real sem o usuário perceber a mudança.
+-As SPAs são construídas em torno de uma arquitetura de front-end, onde o JavaScript é usado para lidar com a maior parte da funcionalidade da aplicação. Isso significa que as requisições de dados são feitas em segundo plano usando APIs REST ou outras tecnologias semelhantes, ao invés de recarregar a página inteira. Além disso, as SPAs usam rotas para controlar a navegação na aplicação, tornando a experiência de navegação mais fluida e agradável.
+
+
+
