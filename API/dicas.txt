@@ -49,4 +49,10 @@
 -DELETE: é o verbo HTTP utilizado para excluir informações a partir de um recurso na web. Por exemplo, se você quiser excluir um post em um fórum, você pode fazer uma requisição DELETE para o servidor para excluir o post.
 -Esses são alguns dos verbos HTTP mais comuns. Além disso, há outros verbos HTTP, como PATCH, OPTIONS e HEAD, que são utilizados para realizar outras ações em recursos na web. É importante entender o significado de cada verbo HTTP para poder desenvolver aplicações web de forma correta e eficiente.
 
+*Conhecendo o Postman
+-O postman é um cliente para testes de API.
+-Podemos então criar o back-end antes ou separado do front só com a ajuda desse software.
+-Como você deve imaginar, é fundamental quando estamos criando APIs.
+-Podemos simular verbos, como de requisição, inserir headers, tudo que é possível com uma aplicação web.
+
 
