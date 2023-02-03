@@ -55,4 +55,28 @@
 -Como você deve imaginar, é fundamental quando estamos criando APIs.
 -Podemos simular verbos, como de requisição, inserir headers, tudo que é possível com uma aplicação web.
 
+*Testando rota com o Postman
+-Para acessar uma rota com o postman precisamos configurar o client.
+-Devemos inserir o verbo correto para a rota.
+-E também configurar o endpoint, que é a URL onde nossa rota foi estabelecida.
+-Enviando a requisição, receberemos a resposta.
+
+*Criando uma rota de POST para visualizar no Postman
+-Para criar a rota de POST vamos utilizar o método post do express.
+-Podemos extrair os dados da requisição, acessando req.body
+-Da mesma maneira que no get, podemos retornar uma resposta como JSON pela api.
+
+*Adicionando status na resposta site para respostas (https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status)
+-O status podem ajudar no desenvolvimento da nossa aplicação.
+-Exibindo mensagens de sucesso ou erro, por exemplo.
+-Precisamos entre res e o método json definir um número de status HTTP.
+-Isso é feito por meio de método status.
+
+*A realidade sobre as APIs
+-A API é desenvolvida de forma muito semelhante a quando criamos projetos com Handlebars por exemplo.
+-Temos algumas alterações leves, como: resposta apenas por JSON.
+-Mas isso acaba até simplificando as coisas, separando as responsabilidades.
+-Uma API (Application Programming Interface) é uma interface de programação de aplicativos que permite que diferentes sistemas se comuniquem e troquem informações. Em outras palavras, uma API define como um aplicativo pode requisitar e receber dados ou funcionalidades de outro aplicativo.
+-As APIs são amplamente utilizadas na web para permitir que diferentes aplicativos se integrem e compartilhem informações e funcionalidades. Por exemplo, uma aplicação de mensagens pode usar a API do Twitter para acessar os tweets de um usuário ou uma aplicação de viagem pode usar a API do Google Maps para exibir mapas e rotas.
+-Para usar uma API em PHP, você precisa fazer uma requisição HTTP para a API, enviando os dados necessários (como chave de API, parâmetros, etc.) e tratar a resposta que é retornada. Isso pode ser feito com uma biblioteca de terceiros, como Guzzle, ou usando funções internas do PHP, como file_get_contents ou cURL. É importante ter em mente que, para usar uma API, você precisa ler a documentação da API e entender como ela funciona, como quais dados precisam ser enviados na requisição e como a resposta será retornada.
 
